@@ -10,4 +10,4 @@ Thumbs.db
 .env.local
 *.secret
 .env
-.mazanoke
+.ls-img-compress

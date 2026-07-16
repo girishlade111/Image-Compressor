@@ -1,7 +1,7 @@
 # docker compose -f compose.dev.yaml up --build
 
 services:
-  mazanoke:
+  ls-img-compress:
     build:
       context: .
       args:

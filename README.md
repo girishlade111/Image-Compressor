@@ -1,19 +1,19 @@
 <h1 align="center">
-  <img src=".github/images/mazanoke-app-icon.png" alt="mazanoke icon" width="120">
+  <img src=".github/images/mazanoke-app-icon.png" alt="LS IMG Compress icon" width="120">
 
-MAZANOKE
+LS IMG Compress
 
 </h1>
 
 <h2 align="center"> A self-hosted local image optimizer that runs in your browser.</h2>
 
 <center>
-   <img src=".github/images/v1.1.5/featured-desktop-solo-dark.jpg" alt="mazanoke desktop screen capture dark mode" width="1200">
+   <img src=".github/images/v1.1.5/featured-desktop-solo-dark.jpg" alt="LS IMG Compress desktop screen capture dark mode" width="1200">
 </center>
 
 ## About
 
-MAZANOKE is a simple image optimizer that runs in your browser, works offline, and keeps your images private without ever leaving your device.
+LS IMG Compress is a simple image optimizer that runs in your browser, works offline, and keeps your images private without ever leaving your device.
 
 Created for everyday people and designed to be shared with family and friends, it serves as an alternative to questionable "free" online tools.
 
@@ -47,9 +47,9 @@ Created for everyday people and designed to be shared with family and friends, i
 1. Using [Docker Compose](https://docs.docker.com/compose/):
    ```yaml
    services:
-     mazanoke:
-       container_name: mazanoke
-       image: ghcr.io/civilblur/mazanoke:latest
+     ls-img-compress:
+        container_name: ls-img-compress
+        image: ghcr.io/girishlade111/Image-Compressor:latest
        ports:
          - "3474:80"
        restart: unless-stopped
@@ -59,32 +59,32 @@ Created for everyday people and designed to be shared with family and friends, i
 
 ### Local
 
-1. Download the [latest source code release](https://github.com/civilblur/mazanoke/releases).
+1. Download the [latest source code release](https://github.com/girishlade111/Image-Compressor/releases).
 1. Open the `index.html` file to launch the app in your browser.
 
 ### Web App
 
-1. Visit [MAZANOKE.com](https://mazanoke.com/), or self-host for even stronger privacy.
+1. Visit the app URL, or self-host for even stronger privacy.
 1. Click the "Install" button in the top-right.
    - If the button isn’t available, you can still install it manually in a few simple clicks. ([See how](./docs/install-web-app.md#manual-install))
-1. A shortcut to MAZANOKE will be added to your device and can even be used offline.
+1. A shortcut to LS IMG Compress will be added to your device and can even be used offline.
 
-<img src=".github/images/install-web-app/capture-install-pwa-button.png" alt="Install MAZANOKE progressive web app button" height="100">
+<img src=".github/images/install-web-app/capture-install-pwa-button.png" alt="Install LS IMG Compress progressive web app button" height="100">
 
 ## Screenshots
 
 <center>
-   <img src=".github/images/v1.1.5/featured-image-mobile-group-dark-light.jpg" alt="mazanoke mobile devices" width="1200">
+   <img src=".github/images/v1.1.5/featured-image-mobile-group-dark-light.jpg" alt="LS IMG Compress mobile devices" width="1200">
 </center>
 
 <center>
-   <img src=".github/images/v1.1.5/featured-desktop-solo-light.jpg" alt="mazanoke desktop screen capture light mode" width="1200">
+   <img src=".github/images/v1.1.5/featured-desktop-solo-light.jpg" alt="LS IMG Compress desktop screen capture light mode" width="1200">
 </center>
 
 |                                                                                                                           |                                                                                                                                |
 | :-----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-|       Dark mode<br><img src=".github/images/v1.1.5/capture-desktop-dark.jpg" alt="mazanoke dark mode" width="90%%">       |        Light mode<br><img src=".github/images/v1.1.5/capture-desktop-light.jpg" alt="mazanoke light mode" width="90%%">        |
-| Settings<br><img src=".github/images/v1.1.5/capture-desktop-solo-settings-dark.jpg" alt="mazanoke settings" width="90%%"> | Download images<br><img src=".github/images/v1.1.5/capture-desktop-solo-output-dark.jpg" alt="mazanoke settings" width="90%%"> |
+|       Dark mode<br><img src=".github/images/v1.1.5/capture-desktop-dark.jpg" alt="LS IMG Compress dark mode" width="90%%">       |        Light mode<br><img src=".github/images/v1.1.5/capture-desktop-light.jpg" alt="LS IMG Compress light mode" width="90%%">        |
+| Settings<br><img src=".github/images/v1.1.5/capture-desktop-solo-settings-dark.jpg" alt="LS IMG Compress settings" width="90%%"> | Download images<br><img src=".github/images/v1.1.5/capture-desktop-solo-output-dark.jpg" alt="LS IMG Compress settings" width="90%%"> |
 
 ## Attributions
 
@@ -96,4 +96,4 @@ Created for everyday people and designed to be shared with family and friends, i
 
 ## License
 
-[GNU General Public License v3.0](https://github.com/civilblur/mazanoke/blob/main/README.md)
+[GNU General Public License v3.0](https://github.com/girishlade111/Image-Compressor/blob/main/README.md)

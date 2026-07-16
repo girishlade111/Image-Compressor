@@ -1,6 +1,6 @@
 {
-  "name": "MAZANOKE",
-  "short_name": "MAZANOKE",
+  "name": "LS IMG Compress",
+  "short_name": "LS IMG Compress",
   "description": "Privacy-respecting Image Optimizer",
   "start_url": "/index.html",
   "display": "standalone",

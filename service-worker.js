@@ -1,6 +1,6 @@
 const APP_VERSION = "v1.1.6";
 const CACHE_VERSION = APP_VERSION;
-const CACHE_NAME = `mazanoke-cache-${CACHE_VERSION}`;
+const CACHE_NAME = `ls-img-compress-cache-${CACHE_VERSION}`;
 const urlsToCache = [
   "/",
   "/index.html",
@@ -77,7 +77,7 @@ self.addEventListener("activate", (event) => {
         return Promise.all(
           cacheNames.map((cacheName) => {
             if (
-              cacheName.startsWith("mazanoke-cache-") &&
+              cacheName.startsWith("ls-img-compress-cache-") &&
               cacheName !== CACHE_NAME
             ) {
               return caches.delete(cacheName);

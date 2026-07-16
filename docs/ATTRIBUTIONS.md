@@ -1,6 +1,6 @@
 # Attributions
 
-MAZANOKE would not be possible without the projects listed here.
+LS IMG Compress would not be possible without the projects listed here.
 
 ### Browser Image Compression
 
