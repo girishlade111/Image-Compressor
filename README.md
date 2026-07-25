@@ -1,6 +1,3 @@
-<h1 align="center">
-  <img src=".github/images/mazanoke-app-icon.png" alt="LS IMG Compress icon" width="120">
-
 LS IMG Compress
 
 </h1>
