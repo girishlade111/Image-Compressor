@@ -1,0 +1,14 @@
+{
+  "name": "ls-img-compress",
+  "version": "1.0.0",
+  "description": "A self-hosted local image optimizer that runs in your browser.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  }
+}
