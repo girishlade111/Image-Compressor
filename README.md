@@ -94,3 +94,7 @@ Created for everyday people and designed to be shared with family and friends, i
 ## License
 
 [GNU General Public License v3.0](https://github.com/girishlade111/Image-Compressor/blob/main/README.md)
+
+---
+
+Built by Girish Lade — [ladestack.in](https://ladestack.in)
